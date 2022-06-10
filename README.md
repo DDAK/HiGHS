@@ -7,8 +7,8 @@ Objective here is to dockerize HiGHS and be able to run it as a container on a c
 
 ## Docker build for Mac M1 
 
-  `docker build --progress=plain --platform=linux/amd64 -t highs/image.
+  `docker build --progress=plain --platform=linux/amd64 -t highs/image .`
 
 ## Docker run
   
-  `docker run --platform=linux/amd64 highs/image
+  `docker run --platform=linux/amd64 highs/image`
